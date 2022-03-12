@@ -121,7 +121,7 @@ const Home: NextPage = () => {
       <footer className="bg-neutral-very-light-gray font-karla relative mt-24 bg-[url(/bg/bg-pattern-footer-mobile.svg)] bg-contain bg-left-top bg-no-repeat lg:bg-[url(/bg/bg-pattern-footer-desktop.svg)] lg:bg-auto">
         <div className="mx-auto max-w-[1200px]">
           <div className="flex flex-col items-center justify-between pt-14 pb-8 lg:flex-row">
-            <div className="mb-8">
+            <div className="mb-8 lg:mb-0 flex items-center">
               <img src="/logo.svg" />
             </div>
             <div className="flex items-center">
