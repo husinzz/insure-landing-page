@@ -22,10 +22,10 @@ const Home: NextPage = () => {
           <div className="flex h-full items-center">
             <div className="font-karla max-w-[530px] px-4 lg:pt-5">
               <hr className="mb-10 hidden w-[100px] lg:block" />
-              <h1 className="font-dm text-center text-5xl lg:text-left lg:text-7xl">
+              <h1 className="font-dm text-center text-[3.3em] leading-none lg:text-left lg:text-[4.3em]">
                 Humanizing your insurance.
               </h1>
-              <p className="mt-8 mb-8 text-center lg:text-left">
+              <p className="mt-6 mb-8 text-center lg:text-left">
                 Get your life insurance coverage easier and faster. We blend our
                 expertise and technology to help you find the plan that’s right
                 for you. Ensure you and your loved ones are protected.
@@ -47,8 +47,6 @@ const Home: NextPage = () => {
           </div>
 
           {/* BG patterns */}
-          <img className="absolute top-0 left-0 z-10 lg:hidden" src="" />
-
           <img
             className="absolute bottom-0 right-0 z-10 translate-y-1/2 lg:hidden"
             src="/bg/bg-pattern-intro-right-mobile.svg"
