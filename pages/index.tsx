@@ -90,9 +90,9 @@ const Home: NextPage = () => {
                 "People First",
                 "Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.",
               ],
-            ].map(([icon, title, text]) => {
+            ].map(([icon, title, text], index) => {
               return (
-                <article className="flex flex-col items-center lg:items-start">
+                <article key={index} className="flex flex-col items-center lg:items-start">
                   <img src={icon} height={65} width={65} className="" />
                   <h2 className="font-dm mt-4 text-2xl">{title}</h2>
                   <p className="font-karla text-primary-grayish-blue mt-3 px-4 text-center lg:px-0 lg:text-left ">
@@ -214,7 +214,7 @@ const Home: NextPage = () => {
 
         <div className="mx-auto mt-10 max-w-[1200px] text-center">
           Challenge by{" "}
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          <a href="https://www.frontendmentor.io?ref=challenge">
             Frontend Mentor
           </a>
           . Coded by <a href="https://github.com/urdreamboi">Urdreamboi</a>.
