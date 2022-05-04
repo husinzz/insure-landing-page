@@ -9,7 +9,7 @@ export default function Navbar() {
       <nav className="font-karla hidden w-full bg-white p-3 lg:block">
         <div className="mx-auto flex w-full max-w-[1200px] items-center justify-between">
           <div>
-            <img src="/logo.svg" />
+            <img src="/insure-landing-page/logo.svg" />
           </div>
 
           <div className="text-neutral-dark-grayish-violet font-bold">
@@ -33,12 +33,12 @@ export default function Navbar() {
       <nav className="font-karla fixed top-0 z-20 max-h-[63px] w-full bg-white p-3 lg:hidden">
         <div className="flex w-full max-w-[1200px] items-center justify-between">
           <div>
-            <img src="/logo.svg" />
+            <img src="/insure-landing-page/logo.svg" />
           </div>
 
           <div>
             <button onClick={() => showNavbar(true)}>
-              <img src="/icons/icon-hamburger.svg" />
+              <img src="/insure-landing-page/icons/icon-hamburger.svg" />
             </button>
           </div>
         </div>
@@ -51,12 +51,12 @@ export default function Navbar() {
           <div
             className={` mx-auto flex h-[63px] w-full max-w-[1200px] items-center justify-between p-3`}>
             <div>
-              <img src="/logo.svg" />
+              <img src="/insure-landing-page/logo.svg" />
             </div>
 
             <div>
               <button onClick={() => showNavbar(false)}>
-                <img src="/icons/icon-close.svg" />
+                <img src="/insure-landing-page/icons/icon-close.svg" />
               </button>
             </div>
           </div>
@@ -79,7 +79,7 @@ export default function Navbar() {
             </div>
             <img
               className="absolute bottom-0 w-full"
-              src="/bg/bg-pattern-mobile-nav.svg"
+              src="/insure-landing-page/bg/bg-pattern-mobile-nav.svg"
             />
           </div>
         </div>

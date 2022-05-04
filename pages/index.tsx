@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         {/* the dude and his kids and wife pic but mobile */}
         <img
           className="w-full lg:hidden"
-          src="/images/image-intro-mobile.jpg"
+          src="/insure-landing-page/images/image-intro-mobile.jpg"
         />
 
         <div className="relative mx-auto h-[600px] max-h-[600px] max-w-[1200px] bg-[url(/bg/bg-pattern-intro-left-mobile.svg)] lg:bg-none bg-no-repeat text-white">
@@ -42,26 +42,26 @@ const Home: NextPage = () => {
           <div className="absolute top-1/4 right-0 hidden lg:block">
             <img
               className="h-full w-full"
-              src="/images/image-intro-desktop.jpg"
+              src="/insure-landing-page/images/image-intro-desktop.jpg"
             />
           </div>
 
           {/* BG patterns */}
           <img
             className="absolute bottom-0 right-0 z-10 translate-y-1/2 lg:hidden"
-            src="/bg/bg-pattern-intro-right-mobile.svg"
+            src="/insure-landing-page/bg/bg-pattern-intro-right-mobile.svg"
           />
         </div>
 
         {/* bg patersn*/}
         <img
           className="absolute top-0 right-0 z-10 hidden lg:block"
-          src="/bg/bg-pattern-intro-right-desktop.svg"
+          src="/insure-landing-page/bg/bg-pattern-intro-right-desktop.svg"
         />
 
         <img
           className="absolute top-2/3 hidden lg:block"
-          src="/bg/bg-pattern-intro-left-desktop.svg"
+          src="/insure-landing-page/bg/bg-pattern-intro-left-desktop.svg"
         />
       </section>
 
@@ -120,7 +120,7 @@ const Home: NextPage = () => {
         <div className="mx-auto max-w-[1200px]">
           <div className="flex flex-col items-center justify-between pt-14 pb-8 lg:flex-row">
             <div className="mb-8 lg:mb-0 flex items-center">
-              <img src="/logo.svg" />
+              <img src="/insure-landing-page/logo.svg" />
             </div>
             <div className="flex items-center">
               <a href="#" className=" mx-2">
